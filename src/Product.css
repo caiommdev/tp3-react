@@ -1,0 +1,24 @@
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-description {
+  font-size: 1.5rem;
+  color: #666;
+}
+.product-price {
+    font-size: 1rem;
+    color: #396720;
+}

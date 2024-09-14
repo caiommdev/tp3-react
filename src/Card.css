@@ -1,0 +1,28 @@
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .card-sub-title {
+    margin: 2;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
