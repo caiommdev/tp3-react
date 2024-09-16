@@ -1,16 +1,17 @@
 .app-container {
+    padding-top: 1rem;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .product-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
   }
   
   .product-item {
+    height: 150px;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);

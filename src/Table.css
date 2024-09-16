@@ -1,0 +1,32 @@
+.table-container {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tr.available {
+    background-color: #e6ffe6;
+  }
+  
+  .product-table tr.unavailable {
+    background-color: #ffe6e6;
+  }
